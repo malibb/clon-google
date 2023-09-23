@@ -2,6 +2,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
 
 .icon-buscador{
     /*
@@ -37,6 +42,32 @@ footer ul li {
     padding: 15px;
 }
 
+header {
+    height: 8vh;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    height: auto;
+}
+
+.btn-buscador{
+    border: black solid 1px;
+}
+
+#input-buscador {
+    outline: none;
+    border: none;
+}
 /*
 
 main {
